@@ -1,0 +1,188 @@
+
+--- S1 - Đầu ván ---
+Hai bên mới đi vài nước, nhiều khả năng đối xứng
+  . . . . . . . . .
+  . . . . . . . . .
+  . . . . . . . . .
+  . . . . . . . . .
+  . . . . O X . . .
+  . . . . . O . . .
+  . . . . . . . . .
+  . . . . . . . . .
+  . . . . . . . . .
+
+  Độ sâu 1:
+    Minimax    : move=(3, 3)  value=   2420  states=    13  time=    7.51 ms
+    Alpha-Beta : move=(3, 3)  value=   2420  states=    13  time=    6.96 ms
+    -> cùng nước đi: True, giảm trạng thái: 0.0%, tăng tốc: 1.08x
+
+  Độ sâu 2:
+    Minimax    : move=(3, 3)  value=   1230  states=   187  time=  102.84 ms
+    Alpha-Beta : move=(3, 3)  value=   1230  states=    40  time=   16.16 ms
+    -> cùng nước đi: True, giảm trạng thái: 78.6%, tăng tốc: 6.36x
+
+  Độ sâu 3:
+    Minimax    : move=(3, 3)  value= 100000  states=  3121  time= 1684.44 ms
+    Alpha-Beta : move=(3, 3)  value= 100000  states=   281  time=  131.06 ms
+    -> cùng nước đi: True, giảm trạng thái: 91.0%, tăng tốc: 12.85x
+
+--- S2 - Giữa ván ---
+Đã có nhiều quân, AI cần cân nhắc cả tấn công và phòng thủ
+  . . . . . . . . .
+  . . . . . . . . .
+  . . . X . . . . .
+  . . . . O X . . .
+  . . . O O X . . .
+  . . . . O X . . .
+  . . . . . . . . .
+  . . . . . . . . .
+  . . . . . . . . .
+
+  Độ sâu 1:
+    Minimax    : move=(2, 4)  value= 100000  states=    20  time=   10.10 ms
+    Alpha-Beta : move=(2, 4)  value= 100000  states=    20  time=    9.91 ms
+    -> cùng nước đi: True, giảm trạng thái: 0.0%, tăng tốc: 1.02x
+
+  Độ sâu 2:
+    Minimax    : move=(2, 4)  value= 100000  states=   380  time=  191.40 ms
+    Alpha-Beta : move=(2, 4)  value= 100000  states=    80  time=   32.91 ms
+    -> cùng nước đi: True, giảm trạng thái: 78.9%, tăng tốc: 5.82x
+
+  Độ sâu 3:
+    Minimax    : move=(2, 4)  value= 100000  states=  7982  time= 4008.80 ms
+    Alpha-Beta : move=(2, 4)  value= 100000  states=   777  time=  371.09 ms
+    -> cùng nước đi: True, giảm trạng thái: 90.3%, tăng tốc: 10.80x
+
+--- S3 - AI thắng ngay ---
+AI có 3 quân liên tiếp mở, đi thêm 1 nước là thắng
+  . . . . . . . . .
+  . . . . . . . . .
+  . . . . . . . . .
+  . . . X X . . . .
+  . . . O O O . . .
+  . . . . X . . . .
+  . . . . . . . . .
+  . . . . . . . . .
+  . . . . . . . . .
+
+  Độ sâu 1:
+    Minimax    : move=(4, 2)  value= 100000  states=    17  time=    8.46 ms
+    Alpha-Beta : move=(4, 2)  value= 100000  states=    17  time=    8.22 ms
+    -> cùng nước đi: True, giảm trạng thái: 0.0%, tăng tốc: 1.03x
+
+  Độ sâu 2:
+    Minimax    : move=(4, 2)  value= 100000  states=   271  time=  148.45 ms
+    Alpha-Beta : move=(4, 2)  value= 100000  states=   120  time=   61.71 ms
+    -> cùng nước đi: True, giảm trạng thái: 55.7%, tăng tốc: 2.41x
+
+  Độ sâu 3:
+    Minimax    : move=(2, 2)  value= 100000  states=  5415  time= 2717.90 ms
+    Alpha-Beta : move=(2, 2)  value= 100000  states=   605  time=  301.44 ms
+    -> cùng nước đi: True, giảm trạng thái: 88.8%, tăng tốc: 9.02x
+
+--- S4 - Phải chặn ---
+HUMAN có 3 quân liên tiếp mở, nếu AI không chặn sẽ thua
+  . . . . . . . . .
+  . . . . . . . . .
+  . . . . O . . . .
+  . . . . . O . . .
+  . . X X X . . . .
+  . . . . . . . . .
+  . . . . . . . . .
+  . . . . . . . . .
+  . . . . . . . . .
+
+  Độ sâu 1:
+    Minimax    : move=(4, 6)  value=     60  states=    20  time=   11.56 ms
+    Alpha-Beta : move=(4, 6)  value=     60  states=    20  time=   10.98 ms
+    -> cùng nước đi: True, giảm trạng thái: 0.0%, tăng tốc: 1.05x
+
+  Độ sâu 2:
+    Minimax    : move=(1, 3)  value=-100000  states=   418  time=  210.95 ms
+    Alpha-Beta : move=(1, 3)  value=-100000  states=   277  time=  141.13 ms
+    -> cùng nước đi: True, giảm trạng thái: 33.7%, tăng tốc: 1.49x
+
+  Độ sâu 3:
+    Minimax    : move=(1, 3)  value=-100000  states=  8690  time= 4819.52 ms
+    Alpha-Beta : move=(1, 3)  value=-100000  states=  2181  time= 1128.08 ms
+    -> cùng nước đi: True, giảm trạng thái: 74.9%, tăng tốc: 4.27x
+
+--- S5 - Hai bên đều mạnh ---
+AI có 2-mở, HUMAN cũng có 2-mở; AI phải chọn ưu tiên
+  . . . . . . . . .
+  . . . . . . . . .
+  . . O O . . . . .
+  . . . X X . . . .
+  . . . . X X . . .
+  . . . . . O O . .
+  . . . . . . . . .
+  . . . . . . . . .
+  . . . . . . . . .
+
+  Độ sâu 1:
+    Minimax    : move=(5, 4)  value=   1890  states=    23  time=   13.41 ms
+    Alpha-Beta : move=(5, 4)  value=   1890  states=    23  time=   13.06 ms
+    -> cùng nước đi: True, giảm trạng thái: 0.0%, tăng tốc: 1.03x
+
+  Độ sâu 2:
+    Minimax    : move=(5, 4)  value=   -430  states=   547  time=  312.06 ms
+    Alpha-Beta : move=(5, 4)  value=   -430  states=   258  time=  139.75 ms
+    -> cùng nước đi: True, giảm trạng thái: 52.8%, tăng tốc: 2.23x
+
+  Độ sâu 3:
+    Minimax    : move=(2, 1)  value= 100000  states= 13910  time= 7709.65 ms
+    Alpha-Beta : move=(2, 1)  value= 100000  states=  1929  time= 1025.11 ms
+    -> cùng nước đi: True, giảm trạng thái: 86.1%, tăng tốc: 7.52x
+
+--- S6 - Nhiều nước hợp lệ ---
+Quân rải đều khắp bàn cờ, branching factor lớn
+  . . . . X . . . .
+  . O . . . . . . .
+  . . . O . . . . .
+  . . . . X . . . .
+  . . . . . O . . .
+  . . . X . . . . .
+  . . . . . . O . .
+  . X . . . . . . .
+  . . . . . . . . .
+
+  Độ sâu 1:
+    Minimax    : move=(4, 4)  value=    480  states=    44  time=   25.95 ms
+    Alpha-Beta : move=(4, 4)  value=    480  states=    44  time=   26.86 ms
+    -> cùng nước đi: True, giảm trạng thái: 0.0%, tăng tốc: 0.97x
+
+  Độ sâu 2:
+    Minimax    : move=(4, 4)  value=   -520  states=  1911  time= 1088.73 ms
+    Alpha-Beta : move=(4, 4)  value=   -520  states=  1001  time=  559.93 ms
+    -> cùng nước đi: True, giảm trạng thái: 47.6%, tăng tốc: 1.94x
+
+  Độ sâu 3:
+    Minimax    : move=(4, 4)  value=   1820  states= 83749  time=48000.76 ms
+    Alpha-Beta : move=(4, 4)  value=   1820  states= 16101  time= 9097.22 ms
+    -> cùng nước đi: True, giảm trạng thái: 80.8%, tăng tốc: 5.28x
+
+==============================================================================================================
+BẢNG TỔNG HỢP (tất cả trạng thái, tất cả độ sâu)
+==============================================================================================================
+Trạng thái              D |  MM move   MM val   MM #st     MM ms |  AB move   AB val   AB #st     AB ms |  same   cut%  speed
+--------------------------------------------------------------------------------------------------------------
+S1 - Đầu ván            1 |   (3, 3)     2420       13      7.51 |   (3, 3)     2420       13      6.96 |  True    0.0   1.08
+S1 - Đầu ván            2 |   (3, 3)     1230      187    102.84 |   (3, 3)     1230       40     16.16 |  True   78.6   6.36
+S1 - Đầu ván            3 |   (3, 3)   100000     3121   1684.44 |   (3, 3)   100000      281    131.06 |  True   91.0  12.85
+S2 - Giữa ván           1 |   (2, 4)   100000       20     10.10 |   (2, 4)   100000       20      9.91 |  True    0.0   1.02
+S2 - Giữa ván           2 |   (2, 4)   100000      380    191.40 |   (2, 4)   100000       80     32.91 |  True   78.9   5.82
+S2 - Giữa ván           3 |   (2, 4)   100000     7982   4008.80 |   (2, 4)   100000      777    371.09 |  True   90.3  10.80
+S3 - AI thắng ngay      1 |   (4, 2)   100000       17      8.46 |   (4, 2)   100000       17      8.22 |  True    0.0   1.03
+S3 - AI thắng ngay      2 |   (4, 2)   100000      271    148.45 |   (4, 2)   100000      120     61.71 |  True   55.7   2.41
+S3 - AI thắng ngay      3 |   (2, 2)   100000     5415   2717.90 |   (2, 2)   100000      605    301.44 |  True   88.8   9.02
+S4 - Phải chặn          1 |   (4, 6)       60       20     11.56 |   (4, 6)       60       20     10.98 |  True    0.0   1.05
+S4 - Phải chặn          2 |   (1, 3)  -100000      418    210.95 |   (1, 3)  -100000      277    141.13 |  True   33.7   1.49
+S4 - Phải chặn          3 |   (1, 3)  -100000     8690   4819.52 |   (1, 3)  -100000     2181   1128.08 |  True   74.9   4.27
+S5 - Hai bên đều mạnh   1 |   (5, 4)     1890       23     13.41 |   (5, 4)     1890       23     13.06 |  True    0.0   1.03
+S5 - Hai bên đều mạnh   2 |   (5, 4)     -430      547    312.06 |   (5, 4)     -430      258    139.75 |  True   52.8   2.23
+S5 - Hai bên đều mạnh   3 |   (2, 1)   100000    13910   7709.65 |   (2, 1)   100000     1929   1025.11 |  True   86.1   7.52
+S6 - Nhiều nước hợp lệ  1 |   (4, 4)      480       44     25.95 |   (4, 4)      480       44     26.86 |  True    0.0   0.97
+S6 - Nhiều nước hợp lệ  2 |   (4, 4)     -520     1911   1088.73 |   (4, 4)     -520     1001    559.93 |  True   47.6   1.94
+S6 - Nhiều nước hợp lệ  3 |   (4, 4)     1820    83749  48000.76 |   (4, 4)     1820    16101   9097.22 |  True   80.8   5.28
+
+Đã lưu kết quả chi tiết vào results.json

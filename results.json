@@ -1,0 +1,452 @@
+[
+  {
+    "state": "S1 - Đầu ván",
+    "depth": 1,
+    "minimax": {
+      "move": [
+        3,
+        3
+      ],
+      "value": 2420,
+      "states": 13,
+      "time_ms": 7.506535999993957
+    },
+    "alphabeta": {
+      "move": [
+        3,
+        3
+      ],
+      "value": 2420,
+      "states": 13,
+      "time_ms": 6.961536000005708
+    },
+    "same_move": true,
+    "states_reduction_pct": 0.0,
+    "speedup": 1.078287320497632
+  },
+  {
+    "state": "S1 - Đầu ván",
+    "depth": 2,
+    "minimax": {
+      "move": [
+        3,
+        3
+      ],
+      "value": 1230,
+      "states": 187,
+      "time_ms": 102.83648800000833
+    },
+    "alphabeta": {
+      "move": [
+        3,
+        3
+      ],
+      "value": 1230,
+      "states": 40,
+      "time_ms": 16.15753899999106
+    },
+    "same_move": true,
+    "states_reduction_pct": 78.6096256684492,
+    "speedup": 6.364613323852427
+  },
+  {
+    "state": "S1 - Đầu ván",
+    "depth": 3,
+    "minimax": {
+      "move": [
+        3,
+        3
+      ],
+      "value": 100000,
+      "states": 3121,
+      "time_ms": 1684.4393129999985
+    },
+    "alphabeta": {
+      "move": [
+        3,
+        3
+      ],
+      "value": 100000,
+      "states": 281,
+      "time_ms": 131.06197899999472
+    },
+    "same_move": true,
+    "states_reduction_pct": 90.99647548862544,
+    "speedup": 12.85223468966592
+  },
+  {
+    "state": "S2 - Giữa ván",
+    "depth": 1,
+    "minimax": {
+      "move": [
+        2,
+        4
+      ],
+      "value": 100000,
+      "states": 20,
+      "time_ms": 10.098373000005267
+    },
+    "alphabeta": {
+      "move": [
+        2,
+        4
+      ],
+      "value": 100000,
+      "states": 20,
+      "time_ms": 9.906022999999209
+    },
+    "same_move": true,
+    "states_reduction_pct": 0.0,
+    "speedup": 1.0194174796491058
+  },
+  {
+    "state": "S2 - Giữa ván",
+    "depth": 2,
+    "minimax": {
+      "move": [
+        2,
+        4
+      ],
+      "value": 100000,
+      "states": 380,
+      "time_ms": 191.40293199998837
+    },
+    "alphabeta": {
+      "move": [
+        2,
+        4
+      ],
+      "value": 100000,
+      "states": 80,
+      "time_ms": 32.90786499999854
+    },
+    "same_move": true,
+    "states_reduction_pct": 78.94736842105263,
+    "speedup": 5.816327859616443
+  },
+  {
+    "state": "S2 - Giữa ván",
+    "depth": 3,
+    "minimax": {
+      "move": [
+        2,
+        4
+      ],
+      "value": 100000,
+      "states": 7982,
+      "time_ms": 4008.8007040000093
+    },
+    "alphabeta": {
+      "move": [
+        2,
+        4
+      ],
+      "value": 100000,
+      "states": 777,
+      "time_ms": 371.08991100001276
+    },
+    "same_move": true,
+    "states_reduction_pct": 90.26559759458782,
+    "speedup": 10.802774705453718
+  },
+  {
+    "state": "S3 - AI thắng ngay",
+    "depth": 1,
+    "minimax": {
+      "move": [
+        4,
+        2
+      ],
+      "value": 100000,
+      "states": 17,
+      "time_ms": 8.463537000011456
+    },
+    "alphabeta": {
+      "move": [
+        4,
+        2
+      ],
+      "value": 100000,
+      "states": 17,
+      "time_ms": 8.21514399999046
+    },
+    "same_move": true,
+    "states_reduction_pct": 0.0,
+    "speedup": 1.0302359885622558
+  },
+  {
+    "state": "S3 - AI thắng ngay",
+    "depth": 2,
+    "minimax": {
+      "move": [
+        4,
+        2
+      ],
+      "value": 100000,
+      "states": 271,
+      "time_ms": 148.4498299999757
+    },
+    "alphabeta": {
+      "move": [
+        4,
+        2
+      ],
+      "value": 100000,
+      "states": 120,
+      "time_ms": 61.70644799999536
+    },
+    "same_move": true,
+    "states_reduction_pct": 55.71955719557196,
+    "speedup": 2.405742589493838
+  },
+  {
+    "state": "S3 - AI thắng ngay",
+    "depth": 3,
+    "minimax": {
+      "move": [
+        2,
+        2
+      ],
+      "value": 100000,
+      "states": 5415,
+      "time_ms": 2717.897205000014
+    },
+    "alphabeta": {
+      "move": [
+        2,
+        2
+      ],
+      "value": 100000,
+      "states": 605,
+      "time_ms": 301.44202100001394
+    },
+    "same_move": true,
+    "states_reduction_pct": 88.82733148661126,
+    "speedup": 9.016318282313694
+  },
+  {
+    "state": "S4 - Phải chặn",
+    "depth": 1,
+    "minimax": {
+      "move": [
+        4,
+        6
+      ],
+      "value": 60,
+      "states": 20,
+      "time_ms": 11.559454999996888
+    },
+    "alphabeta": {
+      "move": [
+        4,
+        6
+      ],
+      "value": 60,
+      "states": 20,
+      "time_ms": 10.981525000005377
+    },
+    "same_move": true,
+    "states_reduction_pct": 0.0,
+    "speedup": 1.0526274811550516
+  },
+  {
+    "state": "S4 - Phải chặn",
+    "depth": 2,
+    "minimax": {
+      "move": [
+        1,
+        3
+      ],
+      "value": -100000,
+      "states": 418,
+      "time_ms": 210.95434200000795
+    },
+    "alphabeta": {
+      "move": [
+        1,
+        3
+      ],
+      "value": -100000,
+      "states": 277,
+      "time_ms": 141.13382099998262
+    },
+    "same_move": true,
+    "states_reduction_pct": 33.73205741626795,
+    "speedup": 1.4947114767057426
+  },
+  {
+    "state": "S4 - Phải chặn",
+    "depth": 3,
+    "minimax": {
+      "move": [
+        1,
+        3
+      ],
+      "value": -100000,
+      "states": 8690,
+      "time_ms": 4819.518617
+    },
+    "alphabeta": {
+      "move": [
+        1,
+        3
+      ],
+      "value": -100000,
+      "states": 2181,
+      "time_ms": 1128.0801449999842
+    },
+    "same_move": true,
+    "states_reduction_pct": 74.90218642117377,
+    "speedup": 4.272319336850014
+  },
+  {
+    "state": "S5 - Hai bên đều mạnh",
+    "depth": 1,
+    "minimax": {
+      "move": [
+        5,
+        4
+      ],
+      "value": 1890,
+      "states": 23,
+      "time_ms": 13.407757000010179
+    },
+    "alphabeta": {
+      "move": [
+        5,
+        4
+      ],
+      "value": 1890,
+      "states": 23,
+      "time_ms": 13.06414999999106
+    },
+    "same_move": true,
+    "states_reduction_pct": 0.0,
+    "speedup": 1.0263015198095058
+  },
+  {
+    "state": "S5 - Hai bên đều mạnh",
+    "depth": 2,
+    "minimax": {
+      "move": [
+        5,
+        4
+      ],
+      "value": -430,
+      "states": 547,
+      "time_ms": 312.05714199998624
+    },
+    "alphabeta": {
+      "move": [
+        5,
+        4
+      ],
+      "value": -430,
+      "states": 258,
+      "time_ms": 139.75334699998143
+    },
+    "same_move": true,
+    "states_reduction_pct": 52.833638025594155,
+    "speedup": 2.232913548754061
+  },
+  {
+    "state": "S5 - Hai bên đều mạnh",
+    "depth": 3,
+    "minimax": {
+      "move": [
+        2,
+        1
+      ],
+      "value": 100000,
+      "states": 13910,
+      "time_ms": 7709.650858999993
+    },
+    "alphabeta": {
+      "move": [
+        2,
+        1
+      ],
+      "value": 100000,
+      "states": 1929,
+      "time_ms": 1025.1135450000106
+    },
+    "same_move": true,
+    "states_reduction_pct": 86.13227893601724,
+    "speedup": 7.520777475435575
+  },
+  {
+    "state": "S6 - Nhiều nước hợp lệ",
+    "depth": 1,
+    "minimax": {
+      "move": [
+        4,
+        4
+      ],
+      "value": 480,
+      "states": 44,
+      "time_ms": 25.94514100002243
+    },
+    "alphabeta": {
+      "move": [
+        4,
+        4
+      ],
+      "value": 480,
+      "states": 44,
+      "time_ms": 26.8554889999848
+    },
+    "same_move": true,
+    "states_reduction_pct": 0.0,
+    "speedup": 0.9661019763980881
+  },
+  {
+    "state": "S6 - Nhiều nước hợp lệ",
+    "depth": 2,
+    "minimax": {
+      "move": [
+        4,
+        4
+      ],
+      "value": -520,
+      "states": 1911,
+      "time_ms": 1088.7261139999964
+    },
+    "alphabeta": {
+      "move": [
+        4,
+        4
+      ],
+      "value": -520,
+      "states": 1001,
+      "time_ms": 559.930444999992
+    },
+    "same_move": true,
+    "states_reduction_pct": 47.61904761904761,
+    "speedup": 1.944395279310115
+  },
+  {
+    "state": "S6 - Nhiều nước hợp lệ",
+    "depth": 3,
+    "minimax": {
+      "move": [
+        4,
+        4
+      ],
+      "value": 1820,
+      "states": 83749,
+      "time_ms": 48000.75898
+    },
+    "alphabeta": {
+      "move": [
+        4,
+        4
+      ],
+      "value": 1820,
+      "states": 16101,
+      "time_ms": 9097.222321000005
+    },
+    "same_move": true,
+    "states_reduction_pct": 80.77469581726349,
+    "speedup": 5.276419250433748
+  }
+]
