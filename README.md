@@ -1,3 +1,6 @@
+# Thành viên thực hiện
+- **Vũ Ngọc Sơn** 
+- **Phạm Quang Tiến**
 # Cờ Caro với Minimax và Alpha-Beta Pruning
 
 Bài tập môn Trí tuệ Nhân tạo: cài đặt AI chơi cờ Caro 9×9 (thắng khi có **4 quân liên tiếp**) bằng thuật toán **Minimax** và **Alpha-Beta Pruning**, sau đó so sánh hai thuật toán bằng thực nghiệm.
